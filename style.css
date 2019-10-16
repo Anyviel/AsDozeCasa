@@ -1,6 +1,7 @@
 body{
     background-image: url('background3.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -73,6 +74,7 @@ body{
 
 p.golden{
     color: rgba(248, 236, 66, 0.959);
+    font-size: 22px;
 }
 
 h4.casaOuro{

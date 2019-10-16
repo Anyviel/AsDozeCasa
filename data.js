@@ -1,62 +1,62 @@
 window.cavaleiros = [
     {
         nome: "Mu",
-        cover: "",
+        cover: "files/01.png",
         casa: "Casa de Áries"
     },
     {
         nome: "Aldebaran",
-        cover: "",
+        cover: "files/02.jpg",
         casa: "Casa de Touro"
     },
     {
         nome: "Saga",
-        cover: "",
+        cover: "files/03.png",
         casa: "Casa de Geminni"
     },
     {
         nome: "Máscara da Morte",
-        cover: "",
+        cover: "files/04.png",
         casa: "Casa de Cancer"
     },
     {
         nome: "Aiolia",
-        cover: "",
+        cover: "files/05.png",
         casa: "Casa de Leão"
     },
     {
         nome: "Shaka",
-        cover: "",
+        cover: "files/06.png",
         casa: "Casa de Virgem"
     },
     {
         nome: "Dohko",
-        cover: "",
+        cover: "files/07.png",
         casa: "Casa de Libra",
     },
     {
         nome: "Milo Palestrante",
-        cover: "",
+        cover: "files/08.png",
         casa: "Casa de Escorpião"
     },
     {
         nome: "Aiolos",
-        cover: "",
+        cover: "files/09.png",
         casa: "Casa de Sargitário"
     },
     {
         nome: "Shura",
-        cover: "",
+        cover: "files/10.png",
         casa: "Casa de Capricornio"
     },
     {
         nome: "Camus",
-        cover: "",
+        cover: "files/11.png",
         casa: "Casa de Aquário"
     },
     {
         nome: "Afrodite",
-        cover: "",
+        cover: "files/12.png",
         casa: "Casa de Peixes"
     }
 ];
