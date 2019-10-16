@@ -1,5 +1,6 @@
 body{
-    background-image: url('background3.jpg');
+    /*background-image: url('background3.jpg');*/
+    background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -14,7 +15,7 @@ body{
     justify-content: center;
     width: 320px;
     border-radius: 10px 10px 10px 10px;
-    background-color: #416c808e;
+    background-color: #9df3f35e;
   }
 
 /*flex.container>div{
@@ -28,7 +29,6 @@ body{
 }*/
 
 #formulario{
-    color: rgb(197, 197, 196);
     font-size: 21px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body{
 #formulario input {
     width: 250px;
     height: 20px;
-    background: rgb(205, 209, 196,0.5);
+    background: rgba(129, 131, 124, 0.384);
     border-radius: 5px 5px 5px 5px;
     border: 1px solid white;
     border-color: none;
@@ -75,6 +75,7 @@ body{
 p.golden{
     color: rgba(248, 236, 66, 0.959);
     font-size: 22px;
+    font-weight: bold;
 }
 
 h4.casaOuro{
@@ -82,4 +83,33 @@ h4.casaOuro{
     margin: 10px;
     margin-bottom: 0;
     color: #dcdc00;
+}
+ 
+.circles li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 242, 66, 0.829);
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    animation: constelar 2s infinite alternate;
+    z-index:-1;
+}
+/* Efeito "Estrelado" */
+@keyframes constelar { 
+    /* from é o inicio da animação */
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    /* Há a possibilidade de definir valores entre o 'from' e o 'to' */
+    50% {
+        opacity: 1;
+    }
+    /* to é o fim da animação */
+    to {
+        opacity: 0;
+        transform: translateY(-800px) rotate(960deg);
+    }
 }

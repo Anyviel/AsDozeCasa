@@ -6,7 +6,7 @@ window.cavaleiros = [
     },
     {
         nome: "Aldebaran",
-        cover: "files/02.jpg",
+        cover: "files/02.png",
         casa: "Casa de Touro"
     },
     {
