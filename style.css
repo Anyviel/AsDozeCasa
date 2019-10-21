@@ -1,9 +1,10 @@
+body,form,p,label,h1,h2,h4,button{
+    margin: 0px;
+    padding: 0px;   
+}
+
 body{
-    /*background-image: url('background3.jpg');*/
     background-color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +12,6 @@ body{
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
     width: 320px;
     border-radius: 10px 10px 10px 10px;
     background-color: #9df3f35e;
@@ -33,8 +32,7 @@ body{
 }
 
 #formulario input {
-    width: 250px;
-    height: 20px;
+    width: 200px;
     background: rgba(129, 131, 124, 0.384);
     border-radius: 5px 5px 5px 5px;
     border: 1px solid white;
@@ -45,7 +43,6 @@ body{
 
 #formulario button{
     color: white;
-    margin-top: 10px;
     width: 200px;
     background-color:#53A548;
     border-radius: 5px 5px 5px 5px; 
@@ -57,19 +54,16 @@ body{
 .card-image{
     width: 150px;
     height: 150px;
-    margin: 0 auto;
     border-radius: 50%;
     background: url("https://placehold.it/500") no-repeat center center / cover;
 }
 
 p.golden{
     color: rgba(248, 236, 66, 0.959);
-    font-size: 22px;
     font-weight: bold;
 }
 
 h4.casaOuro{
-    font-size: 22px;
     margin: 10px;
     margin-bottom: 0;
     color: #dcdc00;
